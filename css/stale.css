@@ -11,3 +11,59 @@ a{
     width: 1140px;
     margin: 0 auto;
 }
+
+#header{
+    background: #020A18;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+.header-logo h1{
+    font-weight: 600;
+    font-size: 22.5455px;
+    color: #3A68B8;
+}
+
+.header-nav a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 0 23px;
+
+}
+
+.header button{
+    width: 112px;
+    height: 52px;
+    background: #3A68B8;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    cursor: pointer;
+    transition:.4s;
+}
+.header button:hover{
+    background: transparent;
+    border:2px solid #3A68B8;
+    transform: scale(1.1);
+}
+
+
+
